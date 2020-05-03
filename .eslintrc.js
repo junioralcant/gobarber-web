@@ -24,5 +24,6 @@ module.exports = {
     'no-console': ['error', { allow: ['tron'] }],
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
+    'no-param-reassign': ['error', { props: false }],
   },
 };
